@@ -6,7 +6,55 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.design {
+    width: 100px;
+    height: 100px;
+    background-color: #e6563b;
 
+
+}
+
+.design a {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+    color: white;
+}
+
+.support {
+    width: 100px;
+    height: 100px;
+    background-color:#7CB06C;
+}
+.support a {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+    color: white;
+}
+
+.develop {
+    width: 100px;
+    height: 100px;
+    background-color: #DEA03D;
+}
+.develop a {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+    color: white;
+}
+.host {
+    width: 100px;
+    height: 100px;
+    background-color: #00ABA9;
+}
+.host a{
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+    color: white;
+}
 
 .visual a{
     font-size: 64px;
@@ -53,10 +101,57 @@ img {
     /*margin-top: 1em;*/
 }
 
-.icons img {
+.icons {
     /*margin-top: 2em;*/
-    margin-right: 1em;
+   display: flex;
+    flex-direction: column;
+    margin-right: 5em;
     height: 18px;
     width: 18px;
 }
+.orange {
+    width: 18px;
+    height: 18px;
+    background-color: #e6563b;
+}
+ .orange a {
+     display: flex;
+     justify-content: center;
+     padding-top: .2em;
+     color: white;
+ }
 
+ .yellow {
+     width: 18px;
+     height: 18px;
+     background-color: #DEA03D;
+ }
+
+.yellow a {
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5em;
+    color: white;
+}
+ .green {
+     width: 18px;
+     height: 18px;
+     background-color:#7CB06C;
+ }
+ .green a{
+     display: flex;
+     justify-content: center;
+     padding-top: 2.5em;
+     color: white;
+ }
+ .blue {
+     width: 18px;
+     height: 18px;
+     background-color: #00ABA9;
+ }
+  .blue a {
+      display: flex;
+      justify-content: center;
+      padding-top: 2.5em;
+      color: white;
+  }
