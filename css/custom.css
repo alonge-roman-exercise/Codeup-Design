@@ -1,0 +1,62 @@
+
+
+body {
+    background-color: #F0F0F0;
+    height: 100%;
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+.visual a{
+    font-size: 64px;
+}
+
+/*.visual {*/
+/*    margin-top: 5em;*/
+/*}*/
+
+.park {
+    margin-top: 4em;
+}
+
+.park a {
+    font-size: 48px;
+}
+.work a {
+    margin-top: 14em;
+    font-size: 28px;
+    font-family: 'Abel', sans-serif;
+}
+
+
+img {
+    /*margin-top: 2em;*/
+    height: 105px;
+    width: 105px;
+}
+
+/*.apple-ipad {*/
+/*    margin-top: 2vh;*/
+/*}*/
+
+.apple-ipad img {
+    border: 1em solid #E6E6E6;
+    opacity: 2;
+    height: 300px;
+    width: 400px;
+}
+
+.xs-feature {
+    font-family: 'Abel', sans-serif;
+    font-size: 28px;
+    /*margin-top: 1em;*/
+}
+
+.icons img {
+    /*margin-top: 2em;*/
+    margin-right: 1em;
+    height: 18px;
+    width: 18px;
+}
+
