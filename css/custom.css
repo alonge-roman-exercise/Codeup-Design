@@ -8,61 +8,70 @@ body {
 
                     /*EXTRA SMALL SCREEN DISPLAY*/
 .design-xs {
-    width: 100px;
-    height: 100px;
-    border: .5em solid #E6E6E6;
+    width: 200px;
+    height: 200px;
+    border: 1em solid #E6E6E6;
     background-color: #e6563b;
+    margin-left: -100px;
 }
 
 .design-xs a {
     display: flex;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 1.3em;
     color: white;
+    font-size: 42px;
 }
 
 .support-xs {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin-top: 1em;
-    border: .5em solid #E6E6E6;
+    border: 1em solid #E6E6E6;
     background-color:#7CB06C;
+    margin-left: -100px;
 }
 .support-xs a {
     display: flex;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 1.3em;
     color: white;
+    font-size: 42px;
+
 }
 
 .develop-xs {
-    width: 100px;
-    height: 100px;
-    border: .5em solid #E6E6E6;
+    width: 200px;
+    height: 200px;
+    border: 1em solid #E6E6E6;
     background-color: #DEA03D;
 }
 .develop-xs a {
     display: flex;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 1.3em;
     color: white;
+    font-size: 42px;
+
 }
 .host-xs {
-    width: 100px;
-    height: 100px;
-    border: .5em solid #E6E6E6;
+    width: 200px;
+    height: 200px;
+    border: 1em solid #E6E6E6;
     background-color: #00ABA9;
     margin-top: 1em;
 }
 .host-xs a{
     display: flex;
     justify-content: center;
-    padding-top: 2em;
+    padding-top: 1.3em;
     color: white;
+    font-size: 42px
 }
 
 .visual-xs a{
     font-size: 64px;
+
 }
 
 
@@ -106,15 +115,15 @@ body {
     /*margin-top: 2em;*/
     display: flex;
     flex-direction: column;
-    margin-right: 7.5em;
     margin-top: 10px;
     height: 18px;
     width: 18px;
+    padding-left: 100px;
 
 }
-
+/*<!--CoNTROLS THE LETTERS AS A GROUp*/
 .icons-xs a {
-    padding-top: 0; THIS CONTROLS THE LETTERS AS A GROUP
+    padding-top: 0;
 }
 
 
@@ -128,6 +137,7 @@ body {
      display: flex;
      justify-content: center;
      color: black;
+     font-size: 12px;
  }
 
  .yellow-xs {
@@ -142,6 +152,7 @@ body {
     justify-content: center;
     /*padding-top: 2.5em;*/
     color: black;
+    font-size: 12px;
 }
  .green-xs {
      width: 18px;
@@ -154,6 +165,7 @@ body {
      justify-content: center;
      /*padding-top: 2.5em;*/
      color: black;
+     font-size: 12px;
  }
  .blue-xs {
      width: 18px;
@@ -165,14 +177,23 @@ body {
       display: flex;
       justify-content: center;
       color: black;
+      font-size: 12px;
   }
 
 
             /*SMALL SCREEN DISPLAY */
 
 .visual-sm a{
-    font-size: 48px;
+    font-size: 50px;
     margin: 0;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.city-small {
+    font-size: x-large;
+    margin-bottom: 2em;
 }
 
 .design-sm {
@@ -184,7 +205,9 @@ body {
 }
 
 .design-sm a {
-
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
 
 .support-sm {
@@ -196,6 +219,9 @@ body {
 }
 
 .support-sm a {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 
 }
 
@@ -207,6 +233,9 @@ body {
 }
 
 .develop-sm a {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 
 }
 
@@ -218,27 +247,106 @@ body {
 }
 
 .host-sm a{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 
 }
 
 .apple-ipad-sm img {
-    width:100%;
-    max-width:600px;
+    width: 100%;
+    max-width: 600px;
 }
+.apple-ipad-sm a {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.ipad-icons {
+    display: flex;
+    padding-top: 0;
+    justify-content: space-between;
+
+}
+.ipad-icons a { /* letters only*/
+    display:flex;
+
+}
+.ipad-icons p {
+
+}
+
 
 .macbook-sm img{
     width:100%;
     max-width:600px;
+}
+.macbook {
+    margin-top: 1em;
+}
+.mac-icons-sm a {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.mac-icons-sm {
+    display: flex;
+    padding-top: 0;
+    justify-content: space-between;
+
+}
+.mac-icons-sm a { /* letters only*/
+    display:flex;
+
 }
 
 .man-sm img {
     width:100%;
     max-width:600px;
 }
+.man-sm {
+    margin-top: 1em;
+}
+.man-icons-sm a {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.man-icons-sm {
+    display: flex;
+    padding-top: 0;
+    justify-content: space-between;
+
+}
+.man-icons-sm a { /* letters only*/
+    display:flex;
+
+}
+
 
 .security-sm img {
     width:100%;
     max-width:600px;
+    height: 200px;
+}
+.security-sm {
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.security-icons-sm a {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.security-icons-sm {
+    display: flex;
+    padding-top: 0;
+    justify-content: space-between;
+
+}
+.security-icons-sm a { /* letters only*/
+    display:flex;
+
 }
 
 .orange-sm {
@@ -251,6 +359,225 @@ body {
     display: flex;
     align-items: center;
     color: white;
+
+}
+
+.yellow-sm {
+    width: 18px;
+    height: 18px;
+    background-color: #DEA03D;
+}
+
+.yellow-sm a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.green-sm {
+    width: 18px;
+    height: 18px;
+    background-color:#7CB06C;
+}
+
+.green-sm a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.blue-sm {
+    width: 18px;
+    height: 18px;
+    background-color: #00ABA9;
+}
+
+.blue-sm a {
+    display: flex;
+    align-items: center;
+    color: white;
+    /*end of small display*/
+}
+
+/*medium SCREEN DISPLAY */
+
+.visual-sm a{
+    font-size: 50px;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.city-small {
+    font-size: x-large;
+    margin-bottom: 2em;
+}
+
+.design-sm {
+    width: 100px;
+    height: 100px;
+    /*margin-top: 1em;*/
+    border: .5em solid #E6E6E6;
+    background-color:#e6563b;
+}
+
+.design-sm a {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.support-sm {
+    width: 100px;
+    height: 100px;
+    /*margin-top: 1em;*/
+    border: .5em solid #E6E6E6;
+    background-color:#7CB06C;
+}
+
+.support-sm a {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.develop-sm {
+    width: 100px;
+    height: 100px;
+    border: .5em solid #E6E6E6;
+    background-color: #DEA03D;
+}
+
+.develop-sm a {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.host-sm {
+    width: 100px;
+    height: 100px;
+    border: .5em solid #E6E6E6;
+    background-color: #00ABA9;
+}
+
+.host-sm a{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.apple-ipad-sm img {
+    width: 100%;
+    max-width: 600px;
+}
+.apple-ipad-sm a {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.ipad-icons {
+    display: flex;
+    padding-top: 0;
+    justify-content: space-between;
+
+}
+.ipad-icons a { /* letters only*/
+    display:flex;
+
+}
+.ipad-icons p {
+
+}
+
+
+.macbook-sm img{
+    width:100%;
+    max-width:600px;
+}
+.macbook {
+    margin-top: 1em;
+}
+.mac-icons-sm a {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.mac-icons-sm {
+    display: flex;
+    padding-top: 0;
+    justify-content: space-between;
+
+}
+.mac-icons-sm a { /* letters only*/
+    display:flex;
+
+}
+
+.man-sm img {
+    width:100%;
+    max-width:600px;
+}
+.man-sm {
+    margin-top: 1em;
+}
+.man-icons-sm a {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.man-icons-sm {
+    display: flex;
+    padding-top: 0;
+    justify-content: space-between;
+
+}
+.man-icons-sm a { /* letters only*/
+    display:flex;
+
+}
+
+
+.security-sm img {
+    width:100%;
+    max-width:600px;
+    height: 200px;
+}
+.security-sm {
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+.security-icons-sm a {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+.security-icons-sm {
+    display: flex;
+    padding-top: 0;
+    justify-content: space-between;
+
+}
+.security-icons-sm a { /* letters only*/
+    display:flex;
+
+}
+
+.orange-sm {
+    width: 18px;
+    height: 18px;
+    background-color: #e6563b;
+}
+
+.orange-sm a {
+    display: flex;
+    align-items: center;
+    color: white;
+
 }
 
 .yellow-sm {
