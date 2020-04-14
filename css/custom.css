@@ -6,74 +6,77 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-.design {
+                    /*EXTRA SMALL SCREEN DISPLAY*/
+.design-xs {
     width: 100px;
     height: 100px;
+    border: .5em solid #E6E6E6;
     background-color: #e6563b;
-
-
 }
 
-.design a {
+.design-xs a {
     display: flex;
     justify-content: center;
-    padding-top: 2.5em;
+    padding-top: 2em;
     color: white;
 }
 
-.support {
+.support-xs {
     width: 100px;
     height: 100px;
+    margin-top: 1em;
+    border: .5em solid #E6E6E6;
     background-color:#7CB06C;
 }
-.support a {
+.support-xs a {
     display: flex;
     justify-content: center;
-    padding-top: 2.5em;
+    padding-top: 2em;
     color: white;
 }
 
-.develop {
+.develop-xs {
     width: 100px;
     height: 100px;
+    border: .5em solid #E6E6E6;
     background-color: #DEA03D;
 }
-.develop a {
+.develop-xs a {
     display: flex;
     justify-content: center;
-    padding-top: 2.5em;
+    padding-top: 2em;
     color: white;
 }
-.host {
+.host-xs {
     width: 100px;
     height: 100px;
+    border: .5em solid #E6E6E6;
     background-color: #00ABA9;
+    margin-top: 1em;
 }
-.host a{
+.host-xs a{
     display: flex;
     justify-content: center;
-    padding-top: 2.5em;
+    padding-top: 2em;
     color: white;
 }
 
-.visual a{
+.visual-xs a{
     font-size: 64px;
 }
 
-/*.visual {*/
-/*    margin-top: 5em;*/
-/*}*/
 
-.park {
+
+.park-xs {
     margin-top: 4em;
 }
 
-.park a {
+.park-xs a {
     font-size: 48px;
 }
-.work a {
+.work-xs a {
     margin-top: 14em;
-    font-size: 28px;
+    font-size: 22px;
     font-family: 'Abel', sans-serif;
 }
 
@@ -84,84 +87,91 @@ img {
     width: 105px;
 }
 
-/*.apple-ipad {*/
-/*    margin-top: 2vh;*/
-/*}*/
 
-.apple-ipad img {
+
+.apple-ipad-xs img {
     border: 1em solid #E6E6E6;
     opacity: 2;
     height: 300px;
     width: 400px;
 }
 
-.xs-feature {
+.feature-xs {
     font-family: 'Abel', sans-serif;
-    font-size: 28px;
-    /*margin-top: .5em;*/
+    font-size: 20px;
+    padding-top: .5em;
+    padding-left: 20px;
 }
 
-.icons {
+.icons-xs {
     /*margin-top: 2em;*/
     display: flex;
     flex-direction: column;
     margin-right: 7.5em;
-    margin-top: 1em;
+    margin-top: 10px;
     height: 18px;
     width: 18px;
+
 }
 
-.icons a {
-    /*margin-right: 2em;*/
+.icons-xs a {
+    padding-top: 0; THIS CONTROLS THE LETTERS AS A GROUP
 }
 
 
-.orange {
+.orange-xs {
     width: 18px;
     height: 18px;
     background-color: #e6563b;
     margin-right: 1em;
 }
- .orange a {
+ .orange-xs a {
      display: flex;
      justify-content: center;
-     color: white;
-
+     color: black;
  }
 
- .yellow {
+ .yellow-xs {
      width: 18px;
      height: 18px;
      background-color: #DEA03D;
      margin-right: 1em;
  }
 
-.yellow a {
+.yellow-xs a {
     display: flex;
     justify-content: center;
     /*padding-top: 2.5em;*/
-    color: white;
+    color: black;
 }
- .green {
+ .green-xs {
      width: 18px;
      height: 18px;
      background-color:#7CB06C;
      margin-right: 1em;
  }
- .green a{
+ .green-xs a{
      display: flex;
      justify-content: center;
      /*padding-top: 2.5em;*/
-     color: white;
+     color: black;
  }
- .blue {
+ .blue-xs {
      width: 18px;
      height: 18px;
      background-color: #00ABA9;
      margin-right: 4em;
  }
-  .blue a {
+  .blue-xs a {
       display: flex;
       justify-content: center;
-      color: white;
+      color: black;
   }
+
+
+            /*SMALL SCREEN DISPLAY */
+
+.visual-sm a{
+    font-size: 48px;
+    margin: 0;
+}
