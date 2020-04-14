@@ -81,8 +81,7 @@ body {
 }
 
 
-img {
-    /*margin-top: 2em;*/
+.apple-ipad-xs img {
     height: 105px;
     width: 105px;
 }
@@ -174,4 +173,118 @@ img {
 .visual-sm a{
     font-size: 48px;
     margin: 0;
+}
+
+.design-sm {
+    width: 100px;
+    height: 100px;
+    /*margin-top: 1em;*/
+    border: .5em solid #E6E6E6;
+    background-color:#e6563b;
+}
+
+.design-sm a {
+
+}
+
+.support-sm {
+    width: 100px;
+    height: 100px;
+    /*margin-top: 1em;*/
+    border: .5em solid #E6E6E6;
+    background-color:#7CB06C;
+}
+
+.support-sm a {
+
+}
+
+.develop-sm {
+    width: 100px;
+    height: 100px;
+    border: .5em solid #E6E6E6;
+    background-color: #DEA03D;
+}
+
+.develop-sm a {
+
+}
+
+.host-sm {
+    width: 100px;
+    height: 100px;
+    border: .5em solid #E6E6E6;
+    background-color: #00ABA9;
+}
+
+.host-sm a{
+
+}
+
+.apple-ipad-sm img {
+    width:100%;
+    max-width:600px;
+}
+
+.macbook-sm img{
+    width:100%;
+    max-width:600px;
+}
+
+.man-sm img {
+    width:100%;
+    max-width:600px;
+}
+
+.security-sm img {
+    width:100%;
+    max-width:600px;
+}
+
+.orange-sm {
+    width: 18px;
+    height: 18px;
+    background-color: #e6563b;
+}
+
+.orange-sm a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.yellow-sm {
+    width: 18px;
+    height: 18px;
+    background-color: #DEA03D;
+}
+
+.yellow-sm a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.green-sm {
+    width: 18px;
+    height: 18px;
+    background-color:#7CB06C;
+}
+
+.green-sm a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.blue-sm {
+    width: 18px;
+    height: 18px;
+    background-color: #00ABA9;
+}
+
+.blue-sm a {
+    display: flex;
+    align-items: center;
+    color: white;
 }
