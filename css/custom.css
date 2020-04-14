@@ -98,60 +98,70 @@ img {
 .xs-feature {
     font-family: 'Abel', sans-serif;
     font-size: 28px;
-    /*margin-top: 1em;*/
+    /*margin-top: .5em;*/
 }
 
 .icons {
     /*margin-top: 2em;*/
-   display: flex;
+    display: flex;
     flex-direction: column;
-    margin-right: 5em;
+    margin-right: 7.5em;
+    margin-top: 1em;
     height: 18px;
     width: 18px;
 }
+
+.icons a {
+    /*margin-right: 2em;*/
+}
+
+
 .orange {
     width: 18px;
     height: 18px;
     background-color: #e6563b;
+    margin-right: 1em;
 }
  .orange a {
      display: flex;
      justify-content: center;
-     padding-top: .2em;
      color: white;
+
  }
 
  .yellow {
      width: 18px;
      height: 18px;
      background-color: #DEA03D;
+     margin-right: 1em;
  }
 
 .yellow a {
     display: flex;
     justify-content: center;
-    padding-top: 2.5em;
+    /*padding-top: 2.5em;*/
     color: white;
 }
  .green {
      width: 18px;
      height: 18px;
      background-color:#7CB06C;
+     margin-right: 1em;
  }
  .green a{
      display: flex;
      justify-content: center;
-     padding-top: 2.5em;
+     /*padding-top: 2.5em;*/
      color: white;
  }
  .blue {
      width: 18px;
      height: 18px;
      background-color: #00ABA9;
+     margin-right: 4em;
  }
   .blue a {
       display: flex;
       justify-content: center;
-      padding-top: 2.5em;
       color: white;
   }
