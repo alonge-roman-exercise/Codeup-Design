@@ -408,9 +408,7 @@ body {
     height: 175px;
 }
 
-/*.apple-ipad-md a {*/
 
-/*}*/
 
 .ipad-icons-md {
     display: flex;
@@ -468,10 +466,11 @@ body {
     height: 175px;
 }
 
-.mac-icons-md {
-    display: flex;
 
+.macbook-icons-md {
+    display: flex;
 }
+
 .last-column img {
     height: 35px;
     width: 35px;
@@ -481,6 +480,7 @@ body {
 .tweet {
     font-size: 12px
 }
+
 
 
 .man-md img {
@@ -495,6 +495,7 @@ body {
     width: 175px;
     height: 175px;
 }
+
 .security-icons-md {
     display: flex;
 }
