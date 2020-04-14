@@ -615,3 +615,55 @@ body {
     align-items: center;
     color: white;
 }
+/*begining of medium */
+.apple-ipad-md img {
+    width: 175px;
+    height: 175px;
+}
+.apple-ipad-md {
+
+}
+.orange-md {
+    width: 18px;
+    height: 18px;
+    background-color: #e6563b;
+}
+
+.orange-md a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.yellow-md {
+    width: 18px;
+    height: 18px;
+    background-color: #DEA03D;
+}
+
+.yellow-md a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.green-md {
+    width: 18px;
+    height: 18px;
+    background-color: #7CB06C;
+}
+
+.green-md a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.blue-md {
+    width: 18px;
+    height: 18px;
+    background-color: #00ABA9;
+}
+
+.blue-md a {
+    display: flex;
+    align-items: center;
+    color: white;
+}
